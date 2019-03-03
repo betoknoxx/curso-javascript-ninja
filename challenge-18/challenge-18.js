@@ -98,6 +98,6 @@
     console.log( '\nFazer replace dos textos das tags:' );
     // ?
     var html = '<h1>Título da página</h1><p>Este é um parágrafo</p><footer>Rodapé</footer>';
-    console.log(html.match(/<(\w+)>/g));
+    console.log(html.replace( /<(\w+)>([^<]+)<\/\w+>/g, 'O texto dentro da tag "$1" é "$2"\n' ));
 
 })();
