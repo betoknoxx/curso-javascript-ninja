@@ -1,2 +1,7 @@
 node_modules
 *.swp
+index.html
+css
+js
+ninja.js
+favicon.ico
